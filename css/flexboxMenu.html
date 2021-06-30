@@ -16,9 +16,25 @@
             background: #333;
             color: #fff;
             border-bottom: solid 5px #4faddb;
-            height: 80px;
+            height: 80px; 
+            align-items: center;
+            justify-content: space-between;
+            display: flex;
         }
         
+        .menu{
+            flex-grow: 10;
+        }
+
+        .menu ul{
+            display: flex;
+            /* justify-content: space-around; */
+        }
+
+        .menu li{
+            margin: 0px 10px;
+        }
+
         .logo img {
             height: 50px;
         }
@@ -54,6 +70,13 @@
         /* ==================== */
         /* Solução com Flex Box */
         /* ==================== */
+
+        .cabecalho{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
     </style>
 </head>
 
