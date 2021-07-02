@@ -7,11 +7,31 @@
     <link rel='stylesheet' href='css/estilo.css'>
 </head>
 
+
+
 <body class="conteudo exercicio">
+    <!-- onclick="navegarEm5s(event)" -->
     <div>
-        <a href="https://google.com.br">Google</a>
+        <a espera-um-pouco href="https://google.com.br" > Google</a>
     </div>
     <script>
-        // ...
+        function navegarEm5s(e){
+            e.preventDefault()
+            console.log('Saindo em 5s...')
+            setTimeout(() => {
+                const link = e.target
+                window.location.href = link.href
+            }, 5000)
+        }
+
+        // const a = document.querySelector('a')
+        // const a = document.getElementById('teste')
+        // a.onclick = navegarEm5s
+
+        const a = document.querySelector('[espera-um-pouco]')
+        a.onclick = navegarEm5s
+
+        
+
     </script>
 </body>
