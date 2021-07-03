@@ -1,9 +1,10 @@
 {
     "files": [
-        "src/**/*.ts"
+        "typeScript/src/app.ts",
+        "typeScript/src/produto.ts"
     ],
     "compilerOptions": {
-        "rootDir": "src",
+        "rootDir": "typescript/src",
         "noImplicitAny": true,
         "target": "es5"
     }
