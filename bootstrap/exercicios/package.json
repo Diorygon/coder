@@ -10,12 +10,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "bootstrap": "^5.0.2",
-    "http-server": "^0.12.3",
-    "jquery": "^3.6.0",
-    "node-sass": "^6.0.1",
-    "popper.js": "^1.16.1",
-    "sass-loader": "^12.1.0",
-    "webpack": "^5.42.0"
+    "bootstrap": "4.1.1",
+    "http-server": "0.11.1",
+    "jquery": "3.3.1",
+    "popper.js": "1.14.3"
   }
 }

@@ -1,5 +1,16 @@
-<!-- Título (jumbotron) -->
-<!-- Breadcrumb -->
+<div class="jumbotron p-4 my-1">
+    <h1 class="display-4">Componentes</h1>
+    <p class="lead-m1">Exemplos de alguns componentes do Bootstrap</p>
+</div>
+
+<nav class="mb-5">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="#/paginas/bemVindo.html">Home</a>
+        </li>
+        <li class="breadcrumb-item active">Componentes</li>
+    </ol>
+</nav>
 
 <h1>1. Botões -
     <small>
@@ -9,6 +20,32 @@
 <hr>
 
 <!-- Botões -->
+<div>
+    <div class="mb-3">
+        <button class="btn btn-primary">Salvar</button>
+        <button class="btn btn-danger">Cancelar</button>
+        <button class="btn btn-warning">Finalizar</button>
+        <button class="btn btn-secondary" disabled>Excluir</button>
+        <button class="btn btn-sucess" data-toggle="button">Selecione</button>
+    </div>
+
+    <div class="btn-group mb-3">
+        <button class="btn btn-info">Esquerda</button>
+        <button class="btn btn-info active">Centro</button>
+        <button class="btn btn-info">Direita</button>
+    </div>
+    <div class="dropdown">
+        <button class="btn btn-danger btn-lg dropdown-toggle" data-toggle="dropdown">
+            Comprar!
+        </button>
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">PayPal</a>
+            <a href="#" class="dropdown-item">PagSeguro</a>
+            <a href="#" class="dropdown-item">MercadoLivre</a>
+        </div>
+
+    </div>
+</div>
 
 <h1 class="mt-5">2. Progresso -
     <small>
