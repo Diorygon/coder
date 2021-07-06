@@ -1,4 +1,4 @@
-(function () {
+ (function () {
     function navegarViaAjax(hash) {
         if (!hash) return
 
